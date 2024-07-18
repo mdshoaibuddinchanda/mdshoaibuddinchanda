@@ -1,26 +1,28 @@
-=>👋 Hi, I’m @mdshoaibuddinchanda.
- ==================================================================================================
-=> 🤨 name is md shoaib uddin chanda.                                                            =
+<h1 align="center">Hi 👋, I'm MD shoaib uddin chanda</h1>
+<h3 align="center">A passionate Software developer from India</h3>
+<img align="right" alt="coding" width="400" src="https://verisoft.ai/wp-content/uploads/2022/05/programmer-animation.gif">
 
-=> 👀 I’m interested in Machine Learning, AI, and Open Source Contributions.                     =
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mdshoaibuddinchanda&label=Profile%20views&color=0e75b6&style=flat" alt="mdshoaibuddinchanda" /> </p>
 
-=> 🌱 I’m currently learning Python , Deep Learningand AI.                                       = 
+- 🌱 I’m currently learning **PyTorch,scikit-learn,CS50**
 
-=> 💞️ I’m looking to collaborate on AI and ML projects.                                          =
+- 👯 I’m looking to collaborate on **AI and ML projects.**
 
-=> 📫 How to reach me: mdshoaibuddinchanda@gmail.com                                             =
+- 🤝 I’m looking for help with **AI and ML projects.**
 
-=> 😄 Pronouns: He/Him.                                                                          =
+- 📫 How to reach me **mdshoaibuddinchanda@gmail.com**
 
-=> ⚡ Fun fact: Playing Games, Exploring New Places, Traveling, and Learning About AI.           =
+- ⚡ Fun fact **Playing Games, Exploring New Places, Traveling, and Learning About AI.**
 
-=> 🛠️ Skills: Python, TensorFlow, Keras, Scikit-Learn, Pandas, NumPy.                            =
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-=> 🎯 Goals: To contribute to impactful open-source projects and enhance my skills in AI and ML. =
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-=> 📚 Hobbies: Reading tech blogs, participating in hackathons, and attending AI/ML webinars.    =
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mdshoaibuddinchanda&show_icons=true&locale=en&layout=compact" alt="mdshoaibuddinchanda" /></p>
 
-=> 🌍 Languages: English, Hindi, and Urdu.                                                       =
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mdshoaibuddinchanda&show_icons=true&locale=en" alt="mdshoaibuddinchanda" /></p>
 
-=>💡 Inspirations: Inspired by the work of Andrew Ng and Geoffrey Hinton in the field of AI.     =
-===================================================================================================
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdshoaibuddinchanda&" alt="mdshoaibuddinchanda" /></p>
