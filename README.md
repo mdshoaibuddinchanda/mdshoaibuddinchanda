@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm MD shoaib uddin chanda</h1>
+<h1 align="center">Hi 👋, I'm Mohammed shoaib uddin chanda</h1>
 <h3 align="center">A passionate Software developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://verisoft.ai/wp-content/uploads/2022/05/programmer-animation.gif">
 
