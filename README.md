@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mdshoaibuddinchanda/mdshoaibuddinchanda/main/Gemini-svg.svg" width="100%" alt="Header Banner"/>
+  <img src="https://raw.githubusercontent.com/mdshoaibuddinchanda/mdshoaibuddinchanda/main/gemini-svg.svg" width="100%" alt="Header Banner"/>
 </p>
 
 <p align="center">
