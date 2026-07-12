@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mdshoaibuddinchanda/mdshoaibuddinchanda/main/gemini-svg.svg" width="100%" alt="Header Banner"/>
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=transparent&height=1"/>
