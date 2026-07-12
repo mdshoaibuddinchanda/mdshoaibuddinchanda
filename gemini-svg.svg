@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 620" width="100%" height="100%">
+  <defs>
+    <!-- Clip path to make your profile picture circular -->
+    <clipPath id="avatar-clip">
+      <circle cx="255" cy="320" r="140" />
+    </clipPath>
+  </defs>
+
+  <!-- Background and Outer Terminal Box -->
+  <rect width="1180" height="620" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  
+  <!-- Top Window Controls and Title Bar -->
+  <line x1="0" y1="40" x2="1180" y2="40" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="25" cy="20" r="6" fill="#FF5F56"/>
+  <circle cx="45" cy="20" r="6" fill="#FFBD2E"/>
+  <circle cx="65" cy="20" r="6" fill="#27C93F"/>
+  <text x="590" y="24" fill="#8B949E" font-family="monospace" font-size="12" text-anchor="middle">shoaib@ai-research ~ ./profile.sh --live</text>
+
+  <!-- ========================================== -->
+  <!-- LEFT PANE: VISUAL MAP (PROFILE PICTURE)    -->
+  <!-- ========================================== -->
+  <rect x="30" y="70" width="450" height="520" rx="6" fill="none" stroke="#1F6FEB" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="50" y="95" fill="#58A6FF" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1">VISUAL MAP</text>
+  
+  <!-- Outer glowing tech ring -->
+  <circle cx="255" cy="320" r="146" fill="none" stroke="#1F6FEB" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4,6"/>
+  
+  <!-- Your actual GitHub Profile Picture -->
+  <image x="115" y="180" width="280" height="280" preserveAspectRatio="xMidYMid slice" href="https://github.com/mdshoaibuddinchanda.png" clip-path="url(#avatar-clip)" />
+
+  <text x="255" y="500" fill="#8B949E" font-family="monospace" font-size="10" text-anchor="middle">&gt; STATUS: ONLINE</text>
+
+  <!-- ========================================== -->
+  <!-- RIGHT PANE: SYSTEM INFO & METRICS          -->
+  <!-- ========================================== -->
+  <rect x="500" y="70" width="650" height="520" rx="6" fill="none" stroke="#1F6FEB" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="520" y="95" fill="#58A6FF" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1">SYSTEM INFO</text>
+  
+  <!-- Terminal Prompt Header -->
+  <text x="520" y="130" fill="#58A6FF" font-family="monospace" font-size="13" font-weight="bold">shoaib@ai-research ~ %</text>
+
+  <!-- Personal Data Block -->
+  <text x="520" y="165" fill="#58A6FF" font-family="monospace" font-size="13">Subject:</text>
+  <text x="670" y="165" fill="#C9D1D9" font-family="monospace" font-size="13">Md Shoaib Uddin Chanda</text>
+
+  <text x="520" y="195" fill="#58A6FF" font-family="monospace" font-size="13">Role:</text>
+  <text x="670" y="195" fill="#C9D1D9" font-family="monospace" font-size="13">Applied ML Researcher &amp; Engineer</text>
+
+  <text x="520" y="225" fill="#58A6FF" font-family="monospace" font-size="13">Origin:</text>
+  <text x="670" y="225" fill="#C9D1D9" font-family="monospace" font-size="13">Hyderabad, Telangana, India</text>
+
+  <text x="520" y="255" fill="#58A6FF" font-family="monospace" font-size="13">Education:</text>
+  <text x="670" y="255" fill="#C9D1D9" font-family="monospace" font-size="13">B.Tech AI &amp; ML, CGPA 8.1/10</text>
+
+  <text x="520" y="285" fill="#58A6FF" font-family="monospace" font-size="13">Status:</text>
+  <text x="670" y="285" fill="#C9D1D9" font-family="monospace" font-size="13">Building • Researching • Publishing</text>
+
+  <text x="520" y="315" fill="#58A6FF" font-family="monospace" font-size="13">ToolChain:</text>
+  <text x="670" y="315" fill="#C9D1D9" font-family="monospace" font-size="13">Git, Linux, Docker, MLflow, LaTeX</text>
+
+  <!-- Technical Skills Block -->
+  <text x="520" y="360" fill="#58A6FF" font-family="monospace" font-size="13">Core.Lang:</text>
+  <text x="670" y="360" fill="#C9D1D9" font-family="monospace" font-size="13">Python, SQL, C/C++, Java</text>
+
+  <text x="520" y="390" fill="#58A6FF" font-family="monospace" font-size="13">Core.ML/DL:</text>
+  <text x="670" y="390" fill="#C9D1D9" font-family="monospace" font-size="13">PyTorch, OpenCV, XGBoost, YOLOv8</text>
+
+  <text x="520" y="420" fill="#58A6FF" font-family="monospace" font-size="13">Core.Backend:</text>
+  <text x="670" y="420" fill="#C9D1D9" font-family="monospace" font-size="13">FastAPI, PostgreSQL, Redis, Celery</text>
+
+  <text x="520" y="450" fill="#58A6FF" font-family="monospace" font-size="13">Core.Focus:</text>
+  <text x="670" y="450" fill="#C9D1D9" font-family="monospace" font-size="13">Robust ML, Tabular AI, Computer Vision</text>
+
+  <!-- Contact & Networking Block -->
+  <text x="520" y="495" fill="#58A6FF" font-family="monospace" font-size="13">Contact</text>
+
+  <text x="520" y="525" fill="#58A6FF" font-family="monospace" font-size="13">Grid.Mail:</text>
+  <text x="670" y="525" fill="#C9D1D9" font-family="monospace" font-size="13">mdshoaibuddinchanda@gmail.com</text>
+
+  <text x="520" y="555" fill="#58A6FF" font-family="monospace" font-size="13">Grid.LinkedIn:</text>
+  <text x="670" y="555" fill="#C9D1D9" font-family="monospace" font-size="13">in/mdshoaibuddinchanda</text>
+  
+</svg>
