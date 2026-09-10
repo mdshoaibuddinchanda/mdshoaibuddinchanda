@@ -1,97 +1,151 @@
-<!-- DESIGN A: RESEARCH DOSSIER -->
+<!-- DESIGN B: VISUAL LAB NOTEBOOK -->
 
 <div align="center">
 
-Md Shoaib Uddin Chanda
+LAB NOTEBOOK // SHOIAB
 
-Machine Learning Research · Robustness · Research Engineering
+robust_ml / tabular_ai / calibration / reproducibility
 
-Published Paper ·
-GitHub ·
-LinkedIn ·
-Email
+<img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=600&size=17&duration=2400&pause=650&color=00C2FF&center=true&vCenter=true&width=900&lines=01+%2F+ask+the+question;02+%2F+stress+the+assumption;03+%2F+measure+the+failure;04+%2F+publish+the+evidence" alt="Research notebook animation"/>
 
 </div>
 
-Profile
-
-I work on reliable empirical machine learning: robustness, tabular learning, calibration, distribution shift, class imbalance, and reproducible evaluation.
-
-My central question is:
-
-What happens when the assumptions behind a clean ML benchmark stop being true?
-
-Research dossier
-
-Published
+ENTRY 001 — Published robustness study
 
 Revisiting training-free tabular models: A robustness and efficiency study
-Array, 31 (2026), 101049
+Array · 2026 · 101049
 
-Question. Does training-free tabular classification remain competitive under realistic degradation and computational constraints?
+Hypothesis
+Training-free performance may not remain advantageous once realistic noise, missingness, data scarcity, and runtime constraints are introduced.
 
-Protocol. 17 datasets · 15 seeds · 13 conditions · 19,890 evaluations.
+Experiment
 
-Result. Classical and gradient-boosted baselines generally provide stronger accuracy–runtime trade-offs; tuned HyperFast retains a narrower advantage on some difficult, highly imbalanced settings.
+17 datasets
+15 random seeds
+13 conditions
+19,890 total evaluations
 
-Links: Paper · Code
+Observation
+Classical and gradient-boosted baselines generally deliver stronger accuracy–runtime trade-offs. Tuned HyperFast retains a narrower advantage on selected difficult, highly imbalanced settings.
 
-Under review — Neural Networks
+Artifacts
+Paper · Code
 
-When Labels Lie and Classes Skew: Robust Tabular Deep Learning via Confidence-Calibrated Reweighting
+ENTRY 002 — CCR
 
-Question. Can a tabular neural network remain robust when class imbalance and asymmetric label noise occur together?
+When Labels Lie and Classes Skew
+Neural Networks · manuscript under review
 
-Method. Confidence-aware detached sample reweighting + per-batch normalized weights.
+Failure mode
+Class imbalance and asymmetric label noise occur at the same time.
 
-Protocol. 14 datasets in a 10 + 2 + 2 structure · 9 loss baselines · tree ensembles · gradient attribution · ablations · architecture transfer.
+Mechanism
 
-Links: Code
+confidence-aware reweighting
++ detached sample weights
++ per-batch normalization
+= robustness without hidden gradient-scale distortion
 
-Under review — Knowledge-Based Systems
+Evaluation
 
-When More Features Hurt: Feature-Synthesis Variance Amplification in Automated Feature Engineering
+14 datasets
+9 loss baselines
+tree-ensemble comparisons
+gradient attribution
+ablation studies
+architecture transfer
 
-Question. When does automated arithmetic feature synthesis improve generalization, and when does it amplify variance and cost?
+Artifact
+Code
 
-Mechanism. Feature-Synthesis Variance Amplification (FSVA).
+ENTRY 003 — FSVA
 
-Configured design. 25 datasets · 5 seeds × 5 folds · 14 conditions · 7 pipelines · 10 classifiers.
+When More Features Hurt
+Knowledge-Based Systems · manuscript under review
 
-Confirmatory scope. 22 substantially completed datasets · 538,972 evaluation records.
+Question
+Can automated feature synthesis increase the train–test generalization gap by amplifying perturbations, redundancy, estimator variance, and search complexity?
 
-Links: Code · Manuscript
+Configured experiment
 
-Research projects
+25 datasets
+5 seeds × 5 folds
+14 conditions
+7 pipelines
+10 classifiers
 
-Calibration Collapse Under Class Imbalance
-Minority-class probability reliability under imbalance, resampling, and post-hoc calibration.
+Confirmatory evidence
+
+22 substantially completed datasets
+538,972 evaluation records
+
+Observation
+Unrestricted synthesis did not improve generalization in the completed evidence scope; constrained addition/subtraction synthesis remained much closer to capped raw-feature baselines.
+
+Artifacts
+Code · Manuscript
+
+ENTRY 004 — Calibration Collapse
+
+Problem
+A global calibration metric can hide minority-class miscalibration.
+
+Focus
+
+per-class ECE
+minority recall
+resampling × calibration
+severity sweeps
+leakage-aware evaluation
+
 Repository
+
+BUILD LOG
+
+Project
+
+What it proves
 
 AutoPrepML
-Leakage-safe fitted preprocessing, contracts, schema validation, fingerprints, lineage, artifacts, and experiment integrations.
-Repository
+
+I can build reproducible ML data infrastructure
 
 SentinelTrack
-RTSP/HLS ingest → YOLO → ByteTrack → plate localization → OCR → target matching → PostGIS route reconstruction.
-Repository
+
+I can integrate CV models into a multi-camera system
 
 ZombieGuard
-Defensive ZIP structural-evasion scanner with bounded parsing, LightGBM, model/data cards, CI, and explicit limitations.
-Repository
 
-Research stack
+I can scope a defensive ML system conservatively
 
-Python · PyTorch · scikit-learn · XGBoost · LightGBM · OpenCV · OpenML · FastAPI · PostgreSQL · Redis · Docker · Linux · GitHub Actions · LaTeX
+Nexus AutoML
 
-Current direction
+I can build full-stack experiment infrastructure
 
-Research: robust ML · tabular learning · distribution shift · calibration · evaluation methodology
-Engineering: research infrastructure · ML systems · CV · MLOps
-Open to: Master's research · RA roles · robust-ML collaborations · reproducibility projects
+AutoPrepML ·
+SentinelTrack ·
+ZombieGuard ·
+Nexus
+
+TOOLBOX
 
 <div align="center">
 
-Evidence over claims. Reproducibility over decoration. Reliability beyond clean benchmarks.
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,redis,docker,linux,githubactions,git,latex" alt="Tech stack"/>
 
 </div>
+
+current:
+  research:
+    - robust_machine_learning
+    - tabular_learning
+    - distribution_shift
+    - calibration
+  engineering:
+    - research_infrastructure
+    - machine_learning_systems
+    - computer_vision
+  open_to:
+    - masters_research
+    - research_assistant_roles
+    - reproducibility_collaborations
