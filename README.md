@@ -1,159 +1,89 @@
 <!--
-  Md Shoaib Uddin Chanda — GitHub Profile
-  Theme: Research Aurora
-  Goal: research-first, visually distinctive, professor/recruiter friendly
+  Md Shoaib Uddin Chanda — GitHub Profile README
+  Direction: Editorial Research Profile
+  Visual system: Deep navy + cyan + amber + emerald accents
 -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,28:312E81,55:0E7490,78:059669,100:F59E0B&text=Md%20Shoaib%20Uddin%20Chanda&fontColor=F8FAFC&fontSize=38&fontAlignY=34&desc=Robust%20Machine%20Learning%20%E2%80%A2%20Research%20Engineering%20%E2%80%A2%20Reliable%20AI%20Systems&descAlignY=53&descSize=16&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=210&color=0:020617,28:0F172A,58:0E7490,82:312E81,100:F59E0B&text=Md%20Shoaib%20Uddin%20Chanda&fontColor=F8FAFC&fontSize=38&fontAlignY=42&desc=Machine%20Learning%20Research%20%E2%80%A2%20Robustness%20%E2%80%A2%20Research%20Engineering&descAlignY=63&descSize=16&animation=fadeIn"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Published+ML+Research+%E2%86%92+Reproducible+Code;Robustness+%E2%80%A2+Distribution+Shift+%E2%80%A2+Calibration;Research+Ideas+%E2%86%92+Auditable+Experiments+%E2%86%92+Systems" alt="Research focus animation"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=940&lines=I+study+what+happens+when+clean+ML+assumptions+break.;Robustness+%E2%80%A2+Distribution+Shift+%E2%80%A2+Calibration;Published+Research+%E2%86%92+Reproducible+Code+%E2%86%92+Reliable+Systems" alt="Research focus"/>
 
 <br/>
 
 <a href="https://doi.org/10.1016/j.array.2026.101049">
-  <img src="https://img.shields.io/badge/Array%202026-Published%20Research-F59E0B?style=for-the-badge&logo=elsevier&logoColor=white"/>
-</a>
-<a href="https://orcid.org/0009-0003-0066-1423">
-  <img src="https://img.shields.io/badge/ORCID-0009--0003--0066--1423-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Published%20in%20Array-2026-F59E0B?style=flat-square&logo=elsevier&logoColor=white"/>
 </a>
 <a href="https://linkedin.com/in/mdshoaibuddinchanda">
-  <img src="https://img.shields.io/badge/LinkedIn-Research%20Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:mdshoaibuddinchanda@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://github.com/mdshoaibuddinchanda">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
 </a>
 
 </div>
 
-01 / Research identity
+<br/>
 
-I study how machine-learning systems behave when clean benchmark assumptions fail.
+Research, not just projects
 
-My work focuses on robust machine learning, tabular learning, distribution shift, calibration, reproducibility, and research engineering. I build empirical studies and the software infrastructure needed to make their results auditable and reproducible.
+I work at the intersection of robust machine learning, tabular learning, distribution shift, calibration, and research engineering.
+
+My central question is simple:
+
+How reliable is a machine-learning system once the clean assumptions behind the benchmark stop being true?
+
+I approach that question through large-scale empirical evaluation, reproducible experimentation, leakage-safe pipelines, statistical analysis, and software systems that make research easier to inspect and reproduce.
+
+<br/>
+
+<div align="center">
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-🔬 Research
-
-Robust & trustworthy ML
-
-Tabular learning
-
-Distribution shift
-
-Calibration & imbalance
-
-Evaluation methodology
-
-Reproducible experimentation
-
+<td align="center" width="25%">
+<b>17</b><br/>
+<sub>datasets in published study</sub>
 </td>
-<td width="50%" valign="top">
-
-📄 Published work
-
-Array (Elsevier), 2026
-
-Revisiting training-free tabular models: A robustness and efficiency study
-
-17 datasets · 15 seeds · 13 conditions
-19,890 model evaluations
-
-Paper · Reproducibility code
-
+<td align="center" width="25%">
+<b>19,890</b><br/>
+<sub>model evaluations</sub>
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-⚙️ Research engineering
-
-I build the infrastructure behind experiments:
-
-leakage-safe pipelines
-
-experiment tracking
-
-dataset/version provenance
-
-automated validation
-
-CI and reproducible releases
-
-benchmark tooling
-
+<td align="center" width="25%">
+<b>15</b><br/>
+<sub>random seeds</sub>
 </td>
-<td width="50%" valign="top">
-
-🌍 Applied systems
-
-Research is strongest when it survives contact with real systems.
-
-My engineering work spans:
-
-computer vision / ANPR
-
-ML infrastructure
-
-cybersecurity ML
-
-backend & MLOps systems
-
+<td align="center" width="25%">
+<b>13</b><br/>
+<sub>robustness conditions</sub>
 </td>
 </tr>
 </table>
 
-02 / Publications & research
+</div>
 
-Work
-
-Status
-
-Theme
-
-Evidence
+Published research
 
 Revisiting training-free tabular models: A robustness and efficiency study
 
-Published — Array, 2026
+Array, 2026
 
-Robustness · Tabular ML · Meta-learning
+A large-scale empirical evaluation of training-free tabular classification under realistic degradation: feature noise, missingness, data scarcity, and computational constraints.
 
-Paper · Code
+Core contribution: testing whether strong clean-benchmark performance remains reliable under non-ideal deployment conditions.
 
-Confidence-Calibrated Reweighting with Invariant Batch Normalization
-
-Manuscript under review
-
-Label noise · Imbalance · Robust DL
-
-Research code
-
-Calibration Collapse Under Class Imbalance
-
-Research project
-
-Calibration · Minority reliability
-
-Repository
-
-AutoFE-ShiftBench
-
-Research benchmark
-
-Distribution shift · AutoFE robustness
-
-Repository
+Read the paper
+  •  
+Reproduce the experiments
 
 <details>
-<summary><b>📚 Published paper — experiment snapshot</b></summary>
-<br/>
+<summary><b>Study design</b></summary>
 
-The Array study stress-tests training-free tabular classification beyond clean benchmarks.
+<br/>
 
 17 public tabular datasets
 
@@ -163,124 +93,188 @@ The Array study stress-tests training-free tabular classification beyond clean b
 
 13 robustness conditions per dataset
 
-19,890 total model evaluations
+19,890 total evaluations
 
-Gaussian feature noise, MCAR missingness, and reduced-data conditions
+Gaussian feature noise
 
-runtime and statistical comparisons against classical and gradient-boosted baselines
+MCAR missingness
 
-The complete experimental code, configuration, result pipeline, and analysis scripts are public in the associated repository.
+reduced-data conditions
+
+runtime and statistical comparisons
 
 </details>
 
-03 / Selected research
+Current research
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-🧠 CCR-Tabular
 
 Confidence-Calibrated Reweighting
 
-A robust-learning framework studying dynamic sample reweighting under concurrent class imbalance and asymmetric label noise.
+Robust tabular learning under class imbalance and asymmetric label noise
 
-Research: gradient behavior, minority recall, label-noise robustness, architecture transfer
+A research framework studying confidence-aware sample reweighting, gradient-scale invariance, minority recall, and corruption robustness.
 
-Stack: PyTorch · OpenML · statistical testing
+Focus
 
-Explore CCR →
+dynamic sample weighting
+
+noisy-label robustness
+
+class imbalance
+
+gradient behavior
+
+architecture transfer
+
+View research code →
 
 </td>
 <td width="50%" valign="top">
 
-📈 AutoFE-ShiftBench
+AutoFE-ShiftBench
 
-Feature engineering under distribution shift
+When feature engineering meets distribution shift
 
-A large-scale benchmark asking whether automated feature engineering remains useful when deployment data is corrupted or shifted.
+A benchmark studying whether automated feature engineering continues to help when test-time data is corrupted or shifted.
 
-Protocol: 25 datasets · 10 models · fold-local AutoFE · multiple shift families
+Protocol
 
-Focus: robustness, leakage-safe evaluation, statistical comparison
+25 datasets
 
-Explore ShiftBench →
+10 models
+
+fold-local AutoFE
+
+multiple shift families
+
+statistical comparisons
+
+View benchmark →
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-🎯 Calibration Collapse
+Calibration Collapse
 
-When global calibration metrics hide minority failure
+When global calibration hides minority-class failure
 
-Research framework studying per-class calibration under imbalance, resampling, and post-hoc calibration.
+A study of probability calibration under imbalance, resampling, and post-hoc calibration.
 
-Focus: ECE, minority calibration, confidence drift, synthetic stress testing
+Focus
 
-Explore Calibration Collapse →
+per-class ECE
+
+minority reliability
+
+confidence drift
+
+calibration-recall trade-offs
+
+synthetic stress testing
+
+View project →
 
 </td>
 <td width="50%" valign="top">
 
-⚡ HyperFast Robustness
+HyperFast Robustness
 
-Code for my published Array study
+Reproducibility repository for my published Array paper
 
-A reproducible stress-test of training-free tabular classification against classical and gradient-boosted baselines.
+The full experimental pipeline, dataset logic, benchmark conditions, model wrappers, validation checks, and paper-figure generation.
 
-Scale: 19,890 evaluations across 17 datasets
+Scale
 
-Evidence: paper ↔ code ↔ configs ↔ results
+17 datasets
 
-Explore reproducibility code →
+15 seeds
+
+19,890 evaluations
+
+end-to-end reproducibility
+
+View reproducibility code →
 
 </td>
 </tr>
 </table>
 
-04 / Research engineering
+Research engineering
+
+Research is stronger when the software around it is inspectable, testable, and reproducible.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-🧬 AutoPrepML
+AutoPrepML
 
 ML data-readiness framework
 
-Leakage-safe fitted preprocessing, contracts, validation, fingerprints, lineage, reproducible artifacts, storage and experiment integrations.
+Leakage-safe preprocessing, contracts, validation, fingerprints, lineage, serializable artifacts, storage integrations, and experiment tracking.
 
-Released: v1.5 on PyPI
-Quality: cross-platform CI · branch-aware coverage · typed core
+Engineering signal
+
+PyPI release
+
+cross-platform CI
+
+typed core
+
+property testing
+
+branch-aware coverage
 
 Repository →
 
 </td>
 <td width="33%" valign="top">
 
-🚘 SentinelTrack
+SentinelTrack
 
 Multi-camera vehicle intelligence
 
-CCTV ingest → detection → tracking → plate localization → OCR → target matching → cross-camera route reconstruction.
+A production-oriented computer-vision system spanning stream ingestion, detection, tracking, plate localization, OCR, matching, and route reconstruction.
 
-Stack: YOLO · ByteTrack · OCR · PostGIS · FastAPI
+Stack
+
+YOLO
+
+ByteTrack
+
+OCR
+
+PostGIS
+
+FastAPI
 
 Repository →
 
 </td>
 <td width="33%" valign="top">
 
-🛡️ ZombieGuard
+ZombieGuard
 
 Defensive ZIP evasion scanner
 
-A bounded structural parser plus LightGBM model for detecting contradictions in ZIP metadata and payload structure.
+A bounded structural parser plus ML model for detecting contradictions between ZIP metadata and payload behavior.
 
-Includes: reproducible evaluation · model card · data card · CI
+Includes
+
+reproducible evaluation
+
+data card
+
+model card
+
+CI
+
+explicit limitations
 
 Repository →
 
@@ -288,94 +282,87 @@ Repository →
 </tr>
 </table>
 
-05 / Experience
-
-Period
-
-Role
-
-Organisation / context
-
-Focus
-
-Sep 2025 – Mar 2026
-
-AI & Software Engineering Intern
-
-Delloyd R&D, Malaysia
-
-Computer vision · ANPR · OCR · GPU workflows
-
-Apr 2026 – May 2026
-
-Research & Data Analysis Intern
-
-Hyderabad City Security Council / Hyderabad City Police project
-
-Operational analytics · reporting · process evaluation
-
-2024 – 2026
-
-Technical Head
-
-ACM Student Chapter
-
-Technical leadership · workshops · mentoring
-
-2023
-
-AI / ML Intern
-
-RAM INFOTECH
-
-Computer vision · XGBoost · feature engineering
-
-06 / Stack
+Research interests
 
 <div align="center">
 
-Research & ML
-
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-006600?style=flat-square"/>
-<img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
-
-Systems
-
-<img src="https://skillicons.dev/icons?i=python,cpp,java,fastapi,postgres,redis,docker,linux,githubactions,git,latex"/>
+<img src="https://img.shields.io/badge/Robust%20Machine%20Learning-0E7490?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tabular%20AI-312E81?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Distribution%20Shift-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Calibration-F59E0B?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Reproducibility-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Research%20Engineering-7C3AED?style=for-the-badge"/>
 
 </div>
 
-07 / Research console
+Experience
 
-research:
-  core:
-    - robust_machine_learning
-    - tabular_learning
-    - distribution_shift
-    - calibration
-  principles:
-    - reproducibility_first
-    - evidence_over_claims
-    - leakage_safe_evaluation
-    - explicit_limitations
+<table>
+<tr>
+<td width="22%"><b>Sep 2025 – Mar 2026</b></td>
+<td width="28%"><b>AI & Software Engineering Intern</b></td>
+<td width="25%">Delloyd R&D, Malaysia</td>
+<td>Computer vision · ANPR · OCR · GPU workflows</td>
+</tr>
+<tr>
+<td><b>Apr 2026 – May 2026</b></td>
+<td><b>Research & Data Analysis Intern</b></td>
+<td>Hyderabad City Police project</td>
+<td>Operational analytics · reporting · process evaluation</td>
+</tr>
+<tr>
+<td><b>2024 – 2026</b></td>
+<td><b>Technical Head</b></td>
+<td>ACM Student Chapter</td>
+<td>Technical leadership · workshops · mentoring</td>
+</tr>
+<tr>
+<td><b>2023</b></td>
+<td><b>AI / ML Intern</b></td>
+<td>RAM INFOTECH</td>
+<td>Computer vision · XGBoost · feature engineering</td>
+</tr>
+</table>
 
-engineering:
-  - research_infrastructure
-  - machine_learning_systems
-  - computer_vision
-  - mlops
+Technical stack
 
-currently_open_to:
-  - masters_research
-  - research_assistant_roles
-  - reproducibility_collaborations
-  - robust_ml_projects
+<div align="center">
 
-08 / GitHub activity
+<img src="https://skillicons.dev/icons?i=python,cpp,java,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,redis,docker,linux,githubactions,git,latex"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/XGBoost-006600?style=flat-square"/>
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square"/>
+<img src="https://img.shields.io/badge/OpenML-222222?style=flat-square"/>
+<img src="https://img.shields.io/badge/Experimental%20Design-334155?style=flat-square"/>
+<img src="https://img.shields.io/badge/Statistical%20Testing-334155?style=flat-square"/>
+
+</div>
+
+Current direction
+
+RESEARCH
+├── robust machine learning
+├── tabular learning
+├── distribution shift
+├── calibration
+└── reproducible evaluation
+
+ENGINEERING
+├── research infrastructure
+├── ML systems
+├── computer vision
+└── MLOps
+
+OPEN TO
+├── Master's research
+├── research assistant roles
+├── reproducibility collaborations
+└── robust-ML projects
+
+GitHub activity
 
 <div align="center">
 
@@ -386,7 +373,8 @@ currently_open_to:
 </div>
 
 <details>
-<summary><b>📊 Contribution activity</b></summary>
+<summary><b>Contribution graph</b></summary>
+
 <br/>
 
 <div align="center">
@@ -395,11 +383,9 @@ currently_open_to:
 
 </details>
 
-09 / Connect
-
 <div align="center">
 
-Research collaboration · graduate research · ML engineering
+Connect
 
 <a href="https://linkedin.com/in/mdshoaibuddinchanda">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -407,14 +393,14 @@ Research collaboration · graduate research · ML engineering
 <a href="mailto:mdshoaibuddinchanda@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://orcid.org/0009-0003-0066-1423">
-  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
+<a href="https://github.com/mdshoaibuddinchanda">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
 Building reliable ML systems. Testing the assumptions that benchmarks usually leave untouched.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=130&color=0:0F172A,28:312E81,55:0E7490,78:059669,100:F59E0B"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=115&color=0:020617,30:0F172A,55:0E7490,78:312E81,100:F59E0B"/>
 
 </div>
