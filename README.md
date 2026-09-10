@@ -1,159 +1,224 @@
 <!-- =========================================================
-DESIGN 2 — RESEARCH TERMINAL
-Visual: terminal / hacker-lab / compact
-No HTML project tables. No custom assets.
+DESIGN 3 — ACADEMIC MAGAZINE
+Visual: editorial / journal / professor-facing
+No custom assets. Minimal external visuals, but still colorful.
 ========================================================= -->
 
 <div align="center">
 
 Md Shoaib Uddin Chanda
 
-researcher@robust-ml:~$
+Machine Learning Researcher · Research Engineer
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2200&pause=700&color=39FF14&center=true&vCenter=true&width=900&lines=whoami+%E2%86%92+Machine+Learning+Researcher;focus+%E2%86%92+robustness+%7C+tabular+ML+%7C+calibration;status+%E2%86%92+1+published+%7C+2+under+review;mode+%E2%86%92+research+%2B+engineering" alt="Terminal typing animation"/>
+Robust ML · Tabular Learning · Distribution Shift · Calibration · Reproducibility
 
+<br/>
 
-
-
-
+<a href="https://doi.org/10.1016/j.array.2026.101049"><img src="https://img.shields.io/badge/PUBLISHED-Array%202026-F59E0B?style=for-the-badge&logo=elsevier&logoColor=white"/></a>
+<a href="https://github.com/mdshoaibuddinchanda"><img src="https://img.shields.io/badge/CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/mdshoaibuddinchanda"><img src="https://img.shields.io/badge/PROFILE-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 </div>
 
-$ cat research_identity.txt
+Research statement
 
-I study what happens when clean machine-learning assumptions break.
+I am interested in reliable empirical machine learning: not only whether a model performs well on a clean benchmark, but whether the conclusion survives noise, missingness, imbalance, distribution shift, calibration analysis, computational constraints, and reproducibility checks.
 
-core/
-├── robust_machine_learning
-├── tabular_learning
-├── distribution_shift
-├── calibration_and_imbalance
-├── empirical_evaluation
-└── reproducible_research_engineering
+Research themes
 
-papers/
+Robustness
 
-01_published.array
+Reliability
 
-Revisiting training-free tabular models: A robustness and efficiency study
-Array 31 (2026) 101049
+Evaluation
 
-datasets     = 17
-seeds        = 15
-conditions   = 13
-evaluations  = 19,890
+Engineering
 
-stressors    = Gaussian noise
-               MCAR missingness
-               data scarcity
-               runtime constraints
+Noise, missingness, scarcity
 
-The study evaluates whether a training-free tabular classifier remains competitive once the benchmark is no longer clean. Classical and gradient-boosted baselines generally provide stronger accuracy–runtime trade-offs; tuned HyperFast shows narrower advantages in some difficult, highly imbalanced settings.
+Calibration, minority behavior
 
-PAPER · CODE
+Statistics, ablations, stress tests
 
-02_under_review.ccr
+Reproducible pipelines, ML systems
 
-When Labels Lie and Classes Skew: Robust Tabular Deep Learning via Confidence-Calibrated Reweighting
-Neural Networks — manuscript under review
+Selected publications & manuscripts
 
-problem      = class imbalance + asymmetric label noise
-method       = confidence-aware detached reweighting
-stability    = per-batch normalized sample weights
-benchmark    = 10 core + 2 multiclass + 2 clinical datasets
-comparators  = 9 losses + tree ensembles
-evidence     = ablations + gradient attribution + architecture transfer
+I. Revisiting training-free tabular models: A robustness and efficiency study
 
-CCR is designed to suppress corrupted learning signal without confusing per-sample reweighting with global gradient-scale changes.
+Array · Volume 31 · 2026 · Article 101049 · Published
 
-CODE
+This study evaluates HyperFast against classical and gradient-boosted baselines under clean and degraded tabular-data conditions. The goal is not simply to report a clean-test leaderboard, but to measure robustness and computational trade-offs.
 
-03_under_review.fsva
+Experimental scale: 17 datasets · 15 random seeds · 13 conditions · 19,890 evaluations
 
-When More Features Hurt: Feature-Synthesis Variance Amplification in Automated Feature Engineering
-Knowledge-Based Systems — manuscript under review
+Result in one sentence: classical and gradient-boosted models generally provide stronger accuracy–runtime trade-offs, while tuned HyperFast retains a narrower advantage on some difficult and highly imbalanced settings.
 
-configured   = 25 datasets
-seeds/folds  = 5 x 5
-conditions   = 14
-pipelines    = 7
-classifiers  = 10
+Paper: https://doi.org/10.1016/j.array.2026.101049
+Code: https://github.com/mdshoaibuddinchanda/hyperfast-robustness-evaluation
 
-confirmatory = 22 substantially completed datasets
-records      = 538,972
+II. When Labels Lie and Classes Skew
 
-The manuscript formulates Feature-Synthesis Variance Amplification (FSVA): feature synthesis can increase perturbation sensitivity, redundancy, estimator variance, and cost. In the completed evidence scope, unrestricted synthesis does not improve generalization; constrained addition/subtraction synthesis stays much closer to capped raw-feature baselines.
+Robust Tabular Deep Learning via Confidence-Calibrated Reweighting
 
-CODE · MANUSCRIPT
+Neural Networks · Manuscript under review
 
-research_projects/
+CCR studies a setting where class imbalance and asymmetric label noise occur together. It combines confidence-aware detached sample reweighting with per-batch normalization to investigate robust learning without conflating directional reweighting with global optimization-scale changes.
 
-<details>
-<summary><b>Calibration Collapse</b> — minority calibration under imbalance</summary>
+Evaluation scope: 14 datasets in a 10 + 2 + 2 structure, 9 loss baselines, tree-ensemble comparisons, gradient attribution, ablations, optimizer studies, and architecture transfer.
 
-<br/>
+Code: https://github.com/mdshoaibuddinchanda/CCR-Tabular
 
-Studies when global calibration metrics hide class-conditional failure. Focus: per-class ECE, minority recall, resampling/calibration interaction, synthetic severity sweeps, and leakage-aware evaluation.
+III. When More Features Hurt
 
-OPEN REPOSITORY
+Feature-Synthesis Variance Amplification in Automated Feature Engineering
 
-</details>
+Knowledge-Based Systems · Manuscript under review
 
-<details>
-<summary><b>AutoPrepML</b> — ML data-readiness infrastructure</summary>
+The work studies a common AutoML assumption: that a larger synthesized feature space should improve predictive performance. It proposes Feature-Synthesis Variance Amplification (FSVA) as a mechanism by which feature generation can instead increase perturbation sensitivity, redundancy, estimator variance, and computational cost.
 
-<br/>
+Configured benchmark: 25 datasets · 5 seeds × 5 folds · 14 conditions · 7 pipelines · 10 classifiers
+Confirmatory scope: 22 substantially completed datasets · 538,972 evaluation records
 
-Leakage-safe fitted preprocessing, data contracts, validation, fingerprints, lineage, serializable artifacts, storage abstractions, and experiment integrations.
+The bounded conclusion is that unrestricted synthesis did not improve generalization in the completed benchmark scope; constrained addition/subtraction synthesis stayed much closer to capped raw-feature baselines. The manuscript does not claim that AutoFE is universally harmful.
 
-OPEN REPOSITORY
+Code: https://github.com/mdshoaibuddinchanda/AutoFE-ShiftBench
+Manuscript: https://github.com/mdshoaibuddinchanda/AutoFE-ShiftBench/blob/main/paper/manuscript.tex
 
-</details>
+Research program
 
-<details>
-<summary><b>SentinelTrack</b> — multi-camera vehicle intelligence</summary>
+flowchart LR
+    A["Robustness"] --> X["Reliable empirical ML"]
+    B["Calibration"] --> X
+    C["Distribution shift"] --> X
+    D["Reproducibility"] --> X
+    X --> E["Better evaluation"]
+    X --> F["Research engineering"]
 
-<br/>
+Supporting research
 
-RTSP/HLS → YOLO → ByteTrack → plate detection → OCR → target matching → PostGIS route reconstruction.
+Calibration Collapse — class-conditional calibration under imbalance, resampling, and post-hoc calibration.
+Repository: https://github.com/mdshoaibuddinchanda/calibration-collapse
 
-OPEN REPOSITORY
+Research engineering portfolio
 
-</details>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<details>
-<summary><b>ZombieGuard</b> — structural ZIP evasion scanner</summary>
+<h3>AutoPrepML</h3>
+<p><strong>ML data-readiness framework</strong></p>
+<p>Leakage-safe fitted preprocessing, contracts, validation, fingerprints, lineage, serializable artifacts, storage abstractions, CLI workflows, and experiment integrations.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/autoprepml"><strong>Open project</strong></a></p>
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-Bounded ZIP parsing + LightGBM + reproducible evaluation + data/model cards + explicit limitations.
+<h3>SentinelTrack</h3>
+<p><strong>Multi-camera vehicle intelligence</strong></p>
+<p>RTSP/HLS ingest, YOLO vehicle detection, ByteTrack, plate localization, OCR, target matching, and GIS-backed route reconstruction.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/sentineltrack"><strong>Open project</strong></a></p>
 
-OPEN REPOSITORY
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-</details>
+<h3>ZombieGuard</h3>
+<p><strong>Defensive structural-evasion scanner</strong></p>
+<p>Bounded ZIP parsing, LightGBM classification, reproducible evaluation, confidence intervals, data/model cards, explicit limitations, and CI.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/zombieguard"><strong>Open project</strong></a></p>
 
-toolchain/
+</td>
+<td width="50%" valign="top">
 
-ML          Python · PyTorch · scikit-learn · XGBoost · LightGBM · OpenCV
-Research    OpenML · experimental design · Wilcoxon · benchmarking · LaTeX
-Systems     FastAPI · PostgreSQL · Redis · Docker · Linux · GitHub Actions
+<h3>Nexus AutoML Platform</h3>
+<p><strong>Reproducible ML experimentation workspace</strong></p>
+<p>FastAPI, PostgreSQL, Redis, Celery, React/TypeScript, immutable dataset versions, experiment artifacts, worker execution, and ownership boundaries.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/Nexus-AutoML-Platform"><strong>Open project</strong></a></p>
+
+</td>
+</tr>
+</table>
+
+Technical toolkit
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,redis,docker,linux,githubactions,git,latex" alt="Technical stack"/>
+Machine learning
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-166534?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LightGBM-0369A1?style=for-the-badge"/>
+
+Systems
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 
 </div>
 
-currently_open_to/
+Experience
 
-masters_research: true
-research_assistant_roles: true
-robust_ml_collaboration: true
-reproducibility_projects: true
-research_engineering: true
+Role
+
+Organisation
+
+Period
+
+Focus
+
+AI & Software Engineering Intern
+
+Delloyd R&D, Malaysia
+
+Sep 2025 – Mar 2026
+
+Computer vision, ANPR/OCR, synthetic data, GPU workflows
+
+Research & Data Analysis Intern
+
+Hyderabad City Police / HCSC project
+
+Apr 2026 – May 2026
+
+Operational analytics, reporting, process evaluation
+
+Technical Head
+
+ACM Student Chapter
+
+2024 – 2026
+
+Workshops, mentoring, technical leadership
+
+AI / ML Intern
+
+RAM INFOTECH
+
+2023
+
+Computer vision, XGBoost, feature engineering
 
 <div align="center">
 
-evidence > hype · reproducibility > screenshots · failure analysis > leaderboard chasing
+Current direction
+
+Master's research · Research assistant roles · Robust ML collaborations · Reproducibility · Research engineering
+
+<br/>
+
+LinkedIn · GitHub · Email
+
+<br/>
+
+Evidence over claims. Reproducibility over decoration. Reliability beyond clean benchmarks.
 
 </div>
