@@ -1,151 +1,117 @@
-<!-- DESIGN B: VISUAL LAB NOTEBOOK -->
+<!-- DESIGN C: PORTFOLIO LANDING PAGE -->
 
 <div align="center">
 
-LAB NOTEBOOK // SHOIAB
+Md Shoaib Uddin Chanda
 
-robust_ml / tabular_ai / calibration / reproducibility
+Researcher building reliable machine-learning systems.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=600&size=17&duration=2400&pause=650&color=00C2FF&center=true&vCenter=true&width=900&lines=01+%2F+ask+the+question;02+%2F+stress+the+assumption;03+%2F+measure+the+failure;04+%2F+publish+the+evidence" alt="Research notebook animation"/>
+Robust ML · Tabular Learning · Calibration · Distribution Shift · Research Engineering
+
+<br/>
+
+
+
+
 
 </div>
 
-ENTRY 001 — Published robustness study
+What I do
+
+<table>
+<tr>
+<td width="33%" align="center">
+<h3>Research</h3>
+<p>Robust ML<br/>Tabular learning<br/>Calibration<br/>Distribution shift</p>
+</td>
+<td width="33%" align="center">
+<h3>Evaluate</h3>
+<p>Stress testing<br/>Statistical analysis<br/>Ablations<br/>Reproducibility</p>
+</td>
+<td width="33%" align="center">
+<h3>Build</h3>
+<p>ML infrastructure<br/>Computer vision<br/>Backend systems<br/>MLOps</p>
+</td>
+</tr>
+</table>
+
+Featured work
+
+Published research
 
 Revisiting training-free tabular models: A robustness and efficiency study
-Array · 2026 · 101049
 
-Hypothesis
-Training-free performance may not remain advantageous once realistic noise, missingness, data scarcity, and runtime constraints are introduced.
+17 datasets · 15 seeds · 13 conditions · 19,890 evaluations
 
-Experiment
+The study tests whether training-free tabular classification remains competitive under noisy features, missingness, data scarcity, and runtime constraints.
 
-17 datasets
-15 random seeds
-13 conditions
-19,890 total evaluations
+Read paper · View code
 
-Observation
-Classical and gradient-boosted baselines generally deliver stronger accuracy–runtime trade-offs. Tuned HyperFast retains a narrower advantage on selected difficult, highly imbalanced settings.
+Confidence-Calibrated Reweighting
 
-Artifacts
-Paper · Code
+Neural Networks · under review
 
-ENTRY 002 — CCR
+Robust tabular deep learning for the joint problem of class imbalance and asymmetric label noise.
 
-When Labels Lie and Classes Skew
-Neural Networks · manuscript under review
+View code
 
-Failure mode
-Class imbalance and asymmetric label noise occur at the same time.
+Feature-Synthesis Variance Amplification
 
-Mechanism
+Knowledge-Based Systems · under review
 
-confidence-aware reweighting
-+ detached sample weights
-+ per-batch normalization
-= robustness without hidden gradient-scale distortion
+A benchmark-driven study of when automated feature synthesis improves representation quality and when it amplifies perturbations, variance, redundancy, and cost.
 
-Evaluation
+22-dataset confirmatory scope · 538,972 evaluation records
 
-14 datasets
-9 loss baselines
-tree-ensemble comparisons
-gradient attribution
-ablation studies
-architecture transfer
+View code · View manuscript
 
-Artifact
-Code
+Engineering portfolio
 
-ENTRY 003 — FSVA
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>AutoPrepML</h3>
+<p>Leakage-safe ML data-readiness framework with contracts, validation, fingerprints, lineage, artifacts, storage, and experiment integrations.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/autoprepml"><b>Open</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>SentinelTrack</h3>
+<p>Multi-camera vehicle intelligence: ingest, detection, tracking, plate localization, OCR, target matching, and route reconstruction.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/sentineltrack"><b>Open</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>Calibration Collapse</h3>
+<p>Class-conditional calibration under imbalance, resampling, and post-hoc calibration.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/calibration-collapse"><b>Open</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>ZombieGuard</h3>
+<p>Defensive structural-evasion scanner for ZIP archives with bounded parsing, ML classification, model/data cards, and CI.</p>
+<p><a href="https://github.com/mdshoaibuddinchanda/zombieguard"><b>Open</b></a></p>
+</td>
+</tr>
+</table>
 
-When More Features Hurt
-Knowledge-Based Systems · manuscript under review
-
-Question
-Can automated feature synthesis increase the train–test generalization gap by amplifying perturbations, redundancy, estimator variance, and search complexity?
-
-Configured experiment
-
-25 datasets
-5 seeds × 5 folds
-14 conditions
-7 pipelines
-10 classifiers
-
-Confirmatory evidence
-
-22 substantially completed datasets
-538,972 evaluation records
-
-Observation
-Unrestricted synthesis did not improve generalization in the completed evidence scope; constrained addition/subtraction synthesis remained much closer to capped raw-feature baselines.
-
-Artifacts
-Code · Manuscript
-
-ENTRY 004 — Calibration Collapse
-
-Problem
-A global calibration metric can hide minority-class miscalibration.
-
-Focus
-
-per-class ECE
-minority recall
-resampling × calibration
-severity sweeps
-leakage-aware evaluation
-
-Repository
-
-BUILD LOG
-
-Project
-
-What it proves
-
-AutoPrepML
-
-I can build reproducible ML data infrastructure
-
-SentinelTrack
-
-I can integrate CV models into a multi-camera system
-
-ZombieGuard
-
-I can scope a defensive ML system conservatively
-
-Nexus AutoML
-
-I can build full-stack experiment infrastructure
-
-AutoPrepML ·
-SentinelTrack ·
-ZombieGuard ·
-Nexus
-
-TOOLBOX
+Technology
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,redis,docker,linux,githubactions,git,latex" alt="Tech stack"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java,pytorch,tensorflow,opencv,sklearn,fastapi,postgres,redis,docker,linux,githubactions,git,latex" alt="Technology stack"/>
 
 </div>
 
-current:
-  research:
-    - robust_machine_learning
-    - tabular_learning
-    - distribution_shift
-    - calibration
-  engineering:
-    - research_infrastructure
-    - machine_learning_systems
-    - computer_vision
-  open_to:
-    - masters_research
-    - research_assistant_roles
-    - reproducibility_collaborations
+Open to
+
+<div align="center">
+
+Master's research · Research assistant roles · Robust ML · Reproducibility · Research engineering
+
+<br/><br/>
+
+LinkedIn ·
+GitHub ·
+Email
+
+</div>
