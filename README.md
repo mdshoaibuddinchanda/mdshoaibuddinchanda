@@ -1,613 +1,420 @@
+<!--
+  Md Shoaib Uddin Chanda — GitHub Profile
+  Theme: Research Aurora
+  Goal: research-first, visually distinctive, professor/recruiter friendly
+-->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=1"/>
-</p>
+<div align="center">
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=900&lines=Software+Engineer;AI+Researcher;Robust+Machine+Learning;Computer+Vision;Open+Source+Contributor"/>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,28:312E81,55:0E7490,78:059669,100:F59E0B&text=Md%20Shoaib%20Uddin%20Chanda&fontColor=F8FAFC&fontSize=38&fontAlignY=34&desc=Robust%20Machine%20Learning%20%E2%80%A2%20Research%20Engineering%20%E2%80%A2%20Reliable%20AI%20Systems&descAlignY=53&descSize=16&animation=fadeIn"/>
 
-<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Published+ML+Research+%E2%86%92+Reproducible+Code;Robustness+%E2%80%A2+Distribution+Shift+%E2%80%A2+Calibration;Research+Ideas+%E2%86%92+Auditable+Experiments+%E2%86%92+Systems" alt="Research focus animation"/>
 
-<a href="https://scholar.google.com/">
-<img src="https://img.shields.io/badge/Google%20Scholar-Research-4F46E5?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+<br/>
+
+<a href="https://doi.org/10.1016/j.array.2026.101049">
+  <img src="https://img.shields.io/badge/Array%202026-Published%20Research-F59E0B?style=for-the-badge&logo=elsevier&logoColor=white"/>
 </a>
-
-<img src="https://img.shields.io/badge/Elsevier-Q1%20Author-6D28D9?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/AI-Robust%20Machine%20Learning-7C3AED?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Open%20Source-30%2B%20Repositories-4338CA?style=for-the-badge"/>
-
-</p>
-
-<p align="center">
-
+<a href="https://orcid.org/0009-0003-0066-1423">
+  <img src="https://img.shields.io/badge/ORCID-0009--0003--0066--1423-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
+</a>
 <a href="https://linkedin.com/in/mdshoaibuddinchanda">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Research%20Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
 <a href="mailto:mdshoaibuddinchanda@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://github.com/mdshoaibuddinchanda">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white"/>
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=mdshoaibuddinchanda&style=flat-square&color=6D28D9"/>
-
-</p>
-
----
-
-# About Me
-
-Software Engineer and AI Researcher focused on **Robust Machine Learning, Tabular AI, Computer Vision, and MLOps**. My work combines empirical research with production-grade software engineering to build reliable, scalable, and reproducible AI systems. I enjoy transforming research ideas into deployable software and contributing to open-source projects.
-
----
-
-# Professional Highlights
-
-<div align="center">
-
-|                             |                         |
-| :-------------------------: | :---------------------: |
-|    📄 Elsevier Q1 Author    | 🤖 AI Research Engineer |
-|    🧠 Robust ML Research    |    🚘 Computer Vision   |
-|      ⚙️ MLOps & Backend     |      📊 Tabular AI      |
-| 🌍 International Internship |      💻 Open Source     |
-|   👨‍🏫 ACM Technical Head  | 🔬 Research Engineering |
-
 </div>
 
----
+01 / Research identity
 
-# Research Philosophy
+I study how machine-learning systems behave when clean benchmark assumptions fail.
 
-<div align="center">
+My work focuses on robust machine learning, tabular learning, distribution shift, calibration, reproducibility, and research engineering. I build empirical studies and the software infrastructure needed to make their results auditable and reproducible.
 
-| **Research Principles** |
-| :---------------------: |
-|  Reproducibility First  |
-| Engineering Before Hype |
-|   Evidence Over Claims  |
-|  Production-Oriented AI |
-|       Open Science      |
-|    Measurable Impact    |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+🔬 Research
 
----
+Robust & trustworthy ML
 
-# Open To
+Tabular learning
 
-<div align="center">
+Distribution shift
 
-|       Research      |       Engineering      |         Community        |
-| :-----------------: | :--------------------: | :----------------------: |
-|     AI Research     |  Software Engineering  |        Open Source       |
-|    ML Engineering   |   Backend Development  |     Technical Writing    |
-|  Graduate Research  |          MLOps         | Conference Collaboration |
-| International Roles | AI Product Engineering |        Mentorship        |
+Calibration & imbalance
 
-</div>
+Evaluation methodology
 
----
+Reproducible experimentation
 
-# Tech Stack
+</td>
+<td width="50%" valign="top">
 
-## Languages
+📄 Published work
 
-<p align="center">
+Array (Elsevier), 2026
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,sql"/>
+Revisiting training-free tabular models: A robustness and efficiency study
 
-</p>
+17 datasets · 15 seeds · 13 conditions
+19,890 model evaluations
 
----
+Paper · Reproducibility code
 
-## Databases
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
+⚙️ Research engineering
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,mongodb"/>
+I build the infrastructure behind experiments:
 
-</p>
+leakage-safe pipelines
 
----
+experiment tracking
 
-## Artificial Intelligence
+dataset/version provenance
 
-<p align="center">
+automated validation
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+CI and reproducible releases
 
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+benchmark tooling
 
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+</td>
+<td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+🌍 Applied systems
 
-<img src="https://img.shields.io/badge/XGBoost-6D28D9?style=for-the-badge"/>
+Research is strongest when it survives contact with real systems.
 
-<img src="https://img.shields.io/badge/LightGBM-4F46E5?style=for-the-badge"/>
+My engineering work spans:
 
-<img src="https://img.shields.io/badge/MLflow-4338CA?style=for-the-badge"/>
+computer vision / ANPR
 
-<img src="https://img.shields.io/badge/YOLOv8-7C3AED?style=for-the-badge"/>
+ML infrastructure
 
-<img src="https://img.shields.io/badge/TabNet-6D28D9?style=for-the-badge"/>
+cybersecurity ML
 
-<img src="https://img.shields.io/badge/FT--Transformer-4F46E5?style=for-the-badge"/>
+backend & MLOps systems
 
-</p>
+</td>
+</tr>
+</table>
 
----
+02 / Publications & research
 
-## Cloud • DevOps • Tools
+Work
 
-<p align="center">
+Status
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,githubactions,vscode,latex"/>
+Theme
 
-</p>
+Evidence
 
----
+Revisiting training-free tabular models: A robustness and efficiency study
 
-# Engineering Stack
+Published — Array, 2026
 
-<div align="center">
+Robustness · Tabular ML · Meta-learning
 
-| Software Engineering | Artificial Intelligence |       Research       |
-| :------------------: | :---------------------: | :------------------: |
-|        FastAPI       |      Deep Learning      |  Experimental Design |
-|       REST APIs      |     Computer Vision     |     Benchmarking     |
-|      PostgreSQL      |      Explainable AI     | Statistical Analysis |
-|        Docker        |          AutoML         |    Reproducibility   |
-|         Redis        |     Robust Learning     |  Scientific Writing  |
+Paper · Code
 
-</div>
+Confidence-Calibrated Reweighting with Invariant Batch Normalization
 
----
+Manuscript under review
 
-# Research Areas
+Label noise · Imbalance · Robust DL
 
-<div align="center">
+Research code
 
-| Research Focus          |
-| :---------------------- |
-| Robust Machine Learning |
-| Tabular AI              |
-| Computer Vision         |
-| Efficient Deep Learning |
-| MLOps                   |
-| Explainable AI          |
-| Distribution Shift      |
-| Synthetic Data          |
-| AI Infrastructure       |
+Calibration Collapse Under Class Imbalance
 
-</div>
+Research project
 
----
+Calibration · Minority reliability
 
-# Featured Projects
+Repository
+
+AutoFE-ShiftBench
+
+Research benchmark
+
+Distribution shift · AutoFE robustness
+
+Repository
 
 <details>
-<summary>
+<summary><b>📚 Published paper — experiment snapshot</b></summary>
+<br/>
 
-## 🧠 Confidence-Calibrated Reweighting (CCR)
+The Array study stress-tests training-free tabular classification beyond clean benchmarks.
 
-*Robust Deep Learning for Noisy Tabular Data*
+17 public tabular datasets
 
-</summary>
+6 model configurations
 
-Designed a dynamic loss weighting framework that improves neural network robustness against **label noise**, **class imbalance**, and **distribution shifts** through confidence-aware batch normalization.
+15 random seeds
 
-|                |                                   |
-| :------------- | :-------------------------------- |
-| **Stack**      | PyTorch • NumPy • OpenML          |
-| **Scale**      | 20 Datasets • 10 Models           |
-| **Evaluation** | Cross Validation • Wilcoxon Tests |
-| **Focus**      | Robust Machine Learning           |
-| **Repository** | CCR-Tabular                       |
+13 robustness conditions per dataset
 
-**Highlights**
+19,890 total model evaluations
 
-* Dynamic confidence weighting
-* Large-scale benchmarking
-* Statistical significance testing
-* Fully reproducible pipeline
+Gaussian feature noise, MCAR missingness, and reduced-data conditions
+
+runtime and statistical comparisons against classical and gradient-boosted baselines
+
+The complete experimental code, configuration, result pipeline, and analysis scripts are public in the associated repository.
 
 </details>
 
----
+03 / Selected research
 
-<details>
-<summary>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 📊 HyperFast Benchmark
+🧠 CCR-Tabular
 
-*Revisiting Training-Free Tabular Models*
+Confidence-Calibrated Reweighting
 
-</summary>
+A robust-learning framework studying dynamic sample reweighting under concurrent class imbalance and asymmetric label noise.
 
-Published research benchmarking HyperFast against classical machine learning algorithms under multiple robustness scenarios, demonstrating the importance of rigorous empirical evaluation.
+Research: gradient behavior, minority recall, label-noise robustness, architecture transfer
 
-|                |                             |
-| :------------- | :-------------------------- |
-| **Stack**      | Python • XGBoost • LightGBM |
-| **Datasets**   | 17 Public Benchmarks        |
-| **Publisher**  | Elsevier Array (Q1)         |
-| **Repository** | CCR-Tabular                 |
+Stack: PyTorch · OpenML · statistical testing
 
-**Highlights**
+Explore CCR →
 
-* Large-scale benchmark
-* Robustness evaluation
-* Efficient experimentation
-* Publication-ready framework
+</td>
+<td width="50%" valign="top">
 
-</details>
+📈 AutoFE-ShiftBench
 
----
+Feature engineering under distribution shift
 
-<details>
-<summary>
+A large-scale benchmark asking whether automated feature engineering remains useful when deployment data is corrupted or shifted.
 
-## 🚘 ANPR & OCR Pipeline
+Protocol: 25 datasets · 10 models · fold-local AutoFE · multiple shift families
 
-*Industrial Computer Vision System*
+Focus: robustness, leakage-safe evaluation, statistical comparison
 
-</summary>
+Explore ShiftBench →
 
-Built an end-to-end Automatic Number Plate Recognition pipeline for Malaysian and ASEAN traffic environments during my industrial internship.
+</td>
+</tr>
 
-|                |                            |
-| :------------- | :------------------------- |
-| **Stack**      | PyTorch • OpenCV • YOLOv8  |
-| **Domain**     | Intelligent Transportation |
-| **Deployment** | Industrial R&D             |
-| **Repository** | Private                    |
+<tr>
+<td width="50%" valign="top">
 
-**Highlights**
+🎯 Calibration Collapse
 
-* OCR pipeline
-* Synthetic data generation
-* GPU optimization
-* Real-world deployment
+When global calibration metrics hide minority failure
 
-</details>
+Research framework studying per-class calibration under imbalance, resampling, and post-hoc calibration.
 
----
+Focus: ECE, minority calibration, confidence drift, synthetic stress testing
 
-<details>
-<summary>
+Explore Calibration Collapse →
 
-## ⚙️ Nexus AutoML
+</td>
+<td width="50%" valign="top">
 
-*Experiment Management Platform*
+⚡ HyperFast Robustness
 
-</summary>
+Code for my published Array study
 
-A modular MLOps platform for reproducible machine learning experimentation with dataset versioning, workflow orchestration, and experiment tracking.
+A reproducible stress-test of training-free tabular classification against classical and gradient-boosted baselines.
 
-|                  |                                       |
-| :--------------- | :------------------------------------ |
-| **Stack**        | FastAPI • PostgreSQL • Redis • Docker |
-| **Architecture** | Modular Backend                       |
-| **Focus**        | MLOps                                 |
-| **Repository**   | GitHub                                |
+Scale: 19,890 evaluations across 17 datasets
 
-**Highlights**
+Evidence: paper ↔ code ↔ configs ↔ results
 
-* MLflow integration
-* Distributed workflows
-* Experiment tracking
-* Dataset versioning
+Explore reproducibility code →
 
-</details>
+</td>
+</tr>
+</table>
 
----
+04 / Research engineering
 
-<details>
-<summary>
+<table>
+<tr>
+<td width="33%" valign="top">
 
-## 🛡 ZombieGuard
+🧬 AutoPrepML
 
-*Explainable Malware Detection*
+ML data-readiness framework
 
-</summary>
+Leakage-safe fitted preprocessing, contracts, validation, fingerprints, lineage, reproducible artifacts, storage and experiment integrations.
 
-Machine learning framework for malware classification with explainable AI techniques using SHAP feature attribution.
+Released: v1.5 on PyPI
+Quality: cross-platform CI · branch-aware coverage · typed core
 
-|                |                          |
-| :------------- | :----------------------- |
-| **Stack**      | Python • LightGBM • SHAP |
-| **Focus**      | Cybersecurity            |
-| **Models**     | Gradient Boosting        |
-| **Repository** | GitHub                   |
+Repository →
 
-**Highlights**
+</td>
+<td width="33%" valign="top">
 
-* Malware detection
-* Explainable predictions
-* SHAP visualization
-* Adversarial evaluation
+🚘 SentinelTrack
 
-</details>
+Multi-camera vehicle intelligence
 
----
+CCTV ingest → detection → tracking → plate localization → OCR → target matching → cross-camera route reconstruction.
 
-<details>
-<summary>
+Stack: YOLO · ByteTrack · OCR · PostGIS · FastAPI
 
-## ⏱ AutoCron
+Repository →
 
-*Cross-Platform Task Scheduler*
+</td>
+<td width="33%" valign="top">
 
-</summary>
+🛡️ ZombieGuard
 
-A lightweight Python automation utility supporting scheduled task execution across Windows, Linux, and macOS.
+Defensive ZIP evasion scanner
 
-|                |                         |
-| :------------- | :---------------------- |
-| **Stack**      | Python                  |
-| **Platforms**  | Windows • Linux • macOS |
-| **Focus**      | Automation              |
-| **Repository** | GitHub                  |
+A bounded structural parser plus LightGBM model for detecting contradictions in ZIP metadata and payload structure.
 
-**Highlights**
+Includes: reproducible evaluation · model card · data card · CI
 
-* Cross-platform
-* Automatic logging
-* Zero configuration
-* Lightweight execution
+Repository →
 
-</details>
+</td>
+</tr>
+</table>
 
----
+05 / Experience
 
-# Professional Experience
+Period
 
-## AI & Software Engineering Intern
+Role
 
-### Delloyd R&D (Malaysia)
+Organisation / context
 
-**Sep 2025 - Mar 2026**
+Focus
 
-* Built production-ready Computer Vision systems.
-* Developed ANPR and OCR pipelines.
-* Generated synthetic datasets for model training.
-* Optimized deep learning models on GPU infrastructure.
+Sep 2025 – Mar 2026
 
-`PyTorch` `OpenCV` `YOLOv8` `OCR` `Deep Learning`
+AI & Software Engineering Intern
 
----
+Delloyd R&D, Malaysia
 
-## Research & Data Analysis Intern
+Computer vision · ANPR · OCR · GPU workflows
 
-### Hyderabad City Police
+Apr 2026 – May 2026
 
-**Apr 2026 - May 2026**
+Research & Data Analysis Intern
 
-* Operational analytics
-* Data-driven reporting
-* Workflow documentation
-* Process evaluation
+Hyderabad City Security Council / Hyderabad City Police project
 
-`Research` `Analytics` `Documentation`
+Operational analytics · reporting · process evaluation
 
----
+2024 – 2026
 
-## AI / Machine Learning Intern
+Technical Head
 
-### RAM INFOTECH
+ACM Student Chapter
 
-**2023**
+Technical leadership · workshops · mentoring
 
-* Facial expression recognition
-* Stress detection
-* XGBoost models
-* Automated feature engineering
+2023
 
-`Python` `OpenCV` `Machine Learning`
+AI / ML Intern
 
----
+RAM INFOTECH
 
-## Technical Head
+Computer vision · XGBoost · feature engineering
 
-### ACM Student Chapter
-
-**2024 - 2026**
-
-* Organized AI workshops
-* Mentored student developers
-* Led technical activities
-* Promoted open-source contributions
-
-`Leadership` `Mentoring` `PyTorch`
-
----
-
-# Publications & Research
+06 / Stack
 
 <div align="center">
 
-| Publication                                                                   |      Status     |
-| :---------------------------------------------------------------------------- | :-------------: |
-| **Revisiting Training-Free Tabular Models**<br><sub>Elsevier Array (Q1)</sub> |   ✅ Published   |
-| **Confidence-Calibrated Reweighting**<br><sub>Elsevier Neurocomputing</sub>   | 📝 Under Review |
+Research & ML
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-006600?style=flat-square"/>
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
+
+Systems
+
+<img src="https://skillicons.dev/icons?i=python,cpp,java,fastapi,postgres,redis,docker,linux,githubactions,git,latex"/>
 
 </div>
 
-### Research Contributions
+07 / Research console
 
-* Robust Machine Learning
-* Tabular Deep Learning
-* Confidence-Based Loss Functions
-* Distribution Shift Evaluation
-* Explainable AI
-* Large-Scale Benchmarking
-* Reproducible ML Research
-
----
-
-# Achievements
-
-<div align="center">
-
-| Recognition                 | Details                    |
-| :-------------------------- | :------------------------- |
-| 🏆 Elsevier Author          | Published Q1 Journal Paper |
-| 🔬 AI Research              | Robust Machine Learning    |
-| 🚘 Industrial AI            | Production Computer Vision |
-| 🌍 International Experience | Malaysia Internship        |
-| 💻 Open Source              | 30+ Public Repositories    |
-| 👨‍🏫 Technical Leadership  | ACM Technical Head         |
-| 🏛 Government Research      | Hyderabad City Police      |
-| 📄 Research Publications    | Peer-reviewed AI Research  |
-
-</div>
-
----
-
-# Leadership
-
-| Role                   | Organization        | Impact                    |
-| :--------------------- | :------------------ | :------------------------ |
-| Technical Head         | ACM Student Chapter | AI Workshops & Mentorship |
-| Open Source Maintainer | GitHub              | Machine Learning Projects |
-| Research Contributor   | AI Community        | Robust ML Research        |
-
----
-
-# Coding Profiles
-
-<p align="center">
-
-<a href="https://leetcode.com/">
-
-<img src="https://img.shields.io/badge/LeetCode-Problem%20Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-
-</a>
-
-<a href="https://www.geeksforgeeks.org/">
-
-<img src="https://img.shields.io/badge/GeeksforGeeks-Coding-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
-
-</a>
-
-<a href="https://www.hackerrank.com/">
-
-<img src="https://img.shields.io/badge/HackerRank-Programming-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-
-</a>
-
-<a href="https://www.codechef.com/">
-
-<img src="https://img.shields.io/badge/CodeChef-Competitive%20Programming-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
-
-</a>
-
-</p>
-
----
-
-# GitHub Analytics
-
-<p align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=mdshoaibuddinchanda&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdshoaibuddinchanda&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=mdshoaibuddinchanda&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-# Contribution Activity
-
-<p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mdshoaibuddinchanda&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
-
-# Current Focus
-
-```yaml
 research:
-  - Robust Machine Learning
-  - Tabular AI
-  - Computer Vision
+  core:
+    - robust_machine_learning
+    - tabular_learning
+    - distribution_shift
+    - calibration
+  principles:
+    - reproducibility_first
+    - evidence_over_claims
+    - leakage_safe_evaluation
+    - explicit_limitations
 
-building:
-  - AI Infrastructure
-  - Open Source Tools
-  - MLOps Platforms
+engineering:
+  - research_infrastructure
+  - machine_learning_systems
+  - computer_vision
+  - mlops
 
-learning:
-  - LLM Systems
-  - AI Agents
-  - Distributed ML
+currently_open_to:
+  - masters_research
+  - research_assistant_roles
+  - reproducibility_collaborations
+  - robust_ml_projects
 
-open_to:
-  - Software Engineering
-  - AI Research
-  - ML Engineering
-```
+08 / GitHub activity
 
----
+<div align="center">
 
-# Connect With Me
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mdshoaibuddinchanda&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=CBD5E1&icon_color=F59E0B&ring_color=8B5CF6&include_all_commits=true&count_private=true"/>
 
-<p align="center">
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=mdshoaibuddinchanda&hide_border=true&background=0D1117&stroke=334155&ring=8B5CF6&fire=F59E0B&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B"/>
 
-<a href="mailto:mdshoaibuddinchanda@gmail.com">
+</div>
 
-<img src="https://img.shields.io/badge/Gmail-mdshoaibuddinchanda%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<details>
+<summary><b>📊 Contribution activity</b></summary>
+<br/>
 
-</a>
+<div align="center">
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=mdshoaibuddinchanda&bg_color=0D1117&color=CBD5E1&line=22D3EE&point=F59E0B&area=true&hide_border=true"/>
+</div>
+
+</details>
+
+09 / Connect
+
+<div align="center">
+
+Research collaboration · graduate research · ML engineering
 
 <a href="https://linkedin.com/in/mdshoaibuddinchanda">
-
-<img src="https://img.shields.io/badge/LinkedIn-Md%20Shoaib%20Uddin%20Chanda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:mdshoaibuddinchanda@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://orcid.org/0009-0003-0066-1423">
+  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/>
 </a>
 
-<a href="https://github.com/mdshoaibuddinchanda">
+<br/><br/>
 
-<img src="https://img.shields.io/badge/GitHub-mdshoaibuddinchanda-181717?style=for-the-badge&logo=github&logoColor=white"/>
+Building reliable ML systems. Testing the assumptions that benchmarks usually leave untouched.
 
-</a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=130&color=0:0F172A,28:312E81,55:0E7490,78:059669,100:F59E0B"/>
 
-<a href="https://scholar.google.com/">
-
-<img src="https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/>
-
-</a>
-
-</p>
-
----
-
-<p align="center">
-
-> **"Building software with engineering discipline. Advancing AI through reproducible research."**
-
-</p>
-
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:4338CA,40:5B21B6,70:6D28D9,100:7C3AED"/>
-
-</p>
+</div>
